@@ -65,7 +65,7 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 
 ### Para executar
 
-- Clone o repositório;
+- Clonar o repositório;
 - Abra o terminal e digite <code>$ yarn</code> para baixar as dependências e em seguida
 <code>$ yarn dev</code>;
 

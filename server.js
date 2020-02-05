@@ -74,7 +74,7 @@ server.delete('/projects/:id', checkProjectExists, (req, res) => {
   return res.send();
 });
 
-// Adicionando nova tarefa no projeto especificado pelo id
+// Adicionando uma nova tarefa no projeto especificado pelo id
 server.post('/projects/:id/tasks', checkProjectExists, (req, res) => {
   const { id } = req.params;
   const { title } = req.body;
