@@ -66,9 +66,9 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 
 ### Para executar
 
-- Clone o repositório <code>git clone https://github.com/matheusnougueira/bootcamp_gostack_10-desafio_01-.git</code>;
-- Abra o terminal e digite <code>yarn</code> para baixar as dependências e em seguida
-<code>yarn dev</code>;
+- Clone o repositório;
+- Abra o terminal e digite <code>$ yarn</code> para baixar as dependências e em seguida
+<code>$ yarn dev</code>;
 
 ## :memo: Licença
 

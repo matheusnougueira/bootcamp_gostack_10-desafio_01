@@ -20,6 +20,7 @@ function checkProjectExists(req, res, next) {
   return next();
 };
 
+// Middleware que conta as requisições
 function logRequests(req, res, next) {
   console.count("Requisição")
 
@@ -62,7 +63,7 @@ server.put('/projects/:id', checkProjectExists, (req, res) => {
   return res.json(project);
 });
 
-// Deletando projeto com id informado na rota
+// Deletando projeto com id informado
 server.delete('/projects/:id', checkProjectExists, (req, res) => {
   const { id } = req.params;
 
