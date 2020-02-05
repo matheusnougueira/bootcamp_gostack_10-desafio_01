@@ -20,6 +20,7 @@ function checkProjectExists(req, res, next) {
   return next();
 };
 
+// Middleware que conta as requisições
 function logRequests(req, res, next) {
   console.count("Requisição")
 
